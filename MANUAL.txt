@@ -1,0 +1,63 @@
+%------------------------------------------------------------------------------
+%                            Function: maxent
+%         A MATLAB implementation of the maximum-entropy basis functions
+%------------------------------------------------------------------------------
+%                                  
+%            Version      : 3.5                    
+%            Date         : 14-OCT-2018  
+%            Source code  : http://camlab.cl/software/maxent
+%
+%------------------------------------------------------------------------------
+%
+% Created by: A. Ortiz-Bernardin, aortizb@uchile.cl, http://camlab.cl/alejandro
+%
+%------------------------------------------------------------------------------
+%
+%                          Copyright (c) 2008 - 2018                     
+%                        by Alejandro Ortiz-Bernardin 
+%                              aortizb@uchile.cl
+%							   
+%                    Department of Mechanical Engineering                        
+%                   Universidad de Chile,  Santiago, CHILE                        
+%						 
+%               Computational and Applied Mechanics Laboratory,
+%                Center for Modern Computational Engineering,
+%                 Facultad de Ciencias Físicas y Matemáticas,
+%                   Universidad de Chile, Santiago, CHILE
+%                            All Rights Reserved.                              
+%                                                                              
+%     This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     (at your option) any later version.
+%
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+%
+%     You should have received a copy of the GNU General Public License
+%     along with this program.  If not, see <http://www.gnu.org/licenses/>.                                         
+%                                                                              
+%------------------------------------------------------------------------------
+
+Instructions
+============
+The program is controlled by the main.m function. This is the only function that 
+must be setup by the user. To execute the code, setup the problem parameters in
+main.m (further instructions are given there) and run it.
+
+When setting up main.m make sure that
+  size(x,2) = dim
+  length(x) = size(ncoord,2)
+  size(ncoord,1) = n
+  length(gamma) = n
+  length(ilambda) = dim
+  
+Anyway, an error is thrown when any of the previous equalities are not satisfied.
+
+Program's website
+=================
+Check updates at http://camlab.cl/software/maxent
+
+
