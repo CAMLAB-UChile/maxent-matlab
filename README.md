@@ -1,7 +1,7 @@
 # maxent-matlab
 A MATLAB implementation of the maximum-entropy basis functions
 
-<h2>Author</h2>
+# Author
 <a href="https://github.com/aaortizb">Alejandro Ortiz-Bernardin</a>
 
 # Instructions
