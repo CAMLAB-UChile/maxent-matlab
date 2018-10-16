@@ -1,6 +1,9 @@
 # maxent-matlab
 A MATLAB implementation of the maximum-entropy basis functions
 
+<h2>Author</h2>
+<a href="https://github.com/aaortizb">Alejandro Ortiz-Bernardin</a>
+
 # Instructions
 The program is controlled by the main.m function. This is the only function that 
 must be setup by the user. To execute the code, setup the problem parameters in
