@@ -2,7 +2,7 @@
 A MATLAB implementation of the maximum-entropy basis functions
 
 # Author
-<a href="https://github.com/aaortizb">Alejandro Ortiz-Bernardin</a>
+<a href="https://github.com/aaortizb">Alejandro Ortiz-Bernardin</a>, Assistant Professor, Department of Mechanical Engineering, Universidad de Chile.
 
 # Instructions
 The program is controlled by the main.m function. This is the only function that 
